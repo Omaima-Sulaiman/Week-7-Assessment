@@ -3,10 +3,41 @@
 
 <head>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<title> Q4</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+    #no{
+		background: red
+	}
+	#yes{
+		background: green
+	}
+
+	</style>
 </head>
 
 <body>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<div class="main"> 
+		Main div is here
+		<button id ="no">Red</button>
+		<button id ="yes">Green</button>
+
+	</div>
+<script>
+$("#no").click(function(){
+	$(".main").css("background-color","red")
+})
+$("#yes").click(function(){
+	$(".main").css("background-color","green")
+})
+
+</script>
+
+
+	
 </body>
 
 </html>
+
+
